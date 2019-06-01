@@ -33,18 +33,15 @@
 	To use a non-default port, add the following line to the list of defines, with the appropriate port number:
 	define('QA_MYSQL_PORT', '3306');
 	
-	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-
-define('QA_MYSQL_HOSTNAME', $url["host"]);
-define('QA_MYSQL_USERNAME', $url["user"]);
-define('QA_MYSQL_PASSWORD', $url["pass"]);
-define('QA_MYSQL_DATABASE', substr($url["path"], 1));
+	
 */
 
-	define('QA_MYSQL_HOSTNAME', '127.0.0.1');
-	define('QA_MYSQL_USERNAME', 'your-mysql-username');
-	define('QA_MYSQL_PASSWORD', 'your-mysql-password');
-	define('QA_MYSQL_DATABASE', 'your-mysql-db-name');
+	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+	define('QA_MYSQL_HOSTNAME', $url["host"]);
+	define('QA_MYSQL_USERNAME', $url["user"]);
+	define('QA_MYSQL_PASSWORD', $url["pass"]);
+	define('QA_MYSQL_DATABASE', substr($url["path"], 1));
 
 /*
 	Ultra-concise installation instructions:
