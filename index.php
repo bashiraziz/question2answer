@@ -1,4 +1,6 @@
 <?php
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 /*
 	Question2Answer by Gideon Greenspan and contributors
 	http://www.question2answer.org/
