@@ -232,7 +232,7 @@ p {
 /* Login bar */
 
 .qam-login-bar {
-	background: #282c34;
+	background: rgba(228, 228, 228, 0.24);
 	margin: 0;
 	height: 30px;
 	border-bottom: 1px solid #aaa;
