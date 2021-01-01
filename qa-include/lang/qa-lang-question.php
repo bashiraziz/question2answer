@@ -134,7 +134,7 @@
 		'q_notify_x_label' => 'Email me (^) if my question is answered or commented on',
 		'q_tags_comma_label' => 'Tags - use comma (,) as a separator:',
 		'q_tags_label' => 'Tags - use hyphens to combine words:',
-		'q_title_label' => 'The question in one sentence:',
+		'q_title_label' => 'The subject of the question:',
 		'q_waiting_approval' => 'This question is waiting for approval',
 		'q_waiting_your_approval' => 'This question is waiting for your approval',
 		'q_your_waiting_approval' => 'Your question will be checked and approved shortly.',
